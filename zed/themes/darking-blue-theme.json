@@ -1,0 +1,30 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+  "name": "darking-blue",
+  "author": "Zag214",
+  "themes": [
+    {
+      "name": "Darking Blue",
+      "appearance": "dark",
+      "style": {
+        "error": "#ed5555",
+        "warning": "#ffca4f",
+
+        "border": "#02006c",
+        "border.focused": "#02006c",
+        "border.variant": "#02006c",
+        "border.selected": "#292b2f",
+        "border.disabled": "#202225",
+        "border.transparent": "#000000",
+
+        "background": "#40444b",
+
+        "editor.foreground": "#ffffff",
+        "editor.background": "#03002e",
+        "editor.active_line_number": "#fffff",
+        "editor.line_number": "#2a363b",
+        "editor.invisible": "#23272a"
+      }
+    }
+  ]
+}
