@@ -12,9 +12,9 @@ window#waybar {
 
 tooltip {
     font-family: inherit;
-    background: #5d7bff;
+    background: #89b4fa;
     /* tooltip background */
-    border: 2px solid #babbf1;
+    border: 2px solid #89dceb;
     /* tooltip border size and color */
     border-radius: 5px;
     /* tooltip rounded corners */
@@ -37,7 +37,7 @@ hyprland-language,
 #custom-updates {
     /*text-shadow: 1px 1px 2px rgb(0, 0, 0);*/
     /* text shadow, offset-x | offset-y | blur-radius | color */
-    background: #303446; /*#232634 default*/
+    background: #1e1e2e; /*#181825 default*/
     /* background color */
     margin: 10px 4px 4px 4px;
     /* empty spaces around */
@@ -47,7 +47,7 @@ hyprland-language,
     /* pill background shadows */
     border-radius: 8px; /*Default 5*/
     /* rounded corners */
-    color: #8caaee;
+    color: #74c7ec;
 }
 
 /* extend empty space on both side of the bar,
@@ -70,8 +70,8 @@ hyprland-language,
 }
 
 #privacy-item {
-    background: #e78284;
-    color: #232634;
+    background: #f38ba8;
+    color: #181825;
 }
 
 /**#tray menu {
@@ -92,7 +92,7 @@ hyprland-language,
         background-color, border-left-color, border-right-color;
     transition-duration: 0.1s;
     font-size: 10px;
-    color: #babbf1;
+    color: #89dceb;
 }
 
 #workspaces button.empty {
@@ -110,7 +110,7 @@ hyprland-language,
 }
 
 #workspaces button:hover {
-    background: #8caaee;
+    background: #74c7ec;
     /* hovered workspace color */
 }
 
@@ -120,6 +120,6 @@ hyprland-language,
 
 @keyframes blink {
     to {
-        background-color: #e78284;
+        background-color: #f38ba8;
     }
 }
