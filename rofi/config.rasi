@@ -7,7 +7,7 @@ configuration {
     icon-theme: "Papirus";
 }
 
-@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"
+@theme "~/.config/rofi/theme.rasi"
 
 * {
     border: 0;
